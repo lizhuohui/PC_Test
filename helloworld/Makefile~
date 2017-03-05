@@ -1,0 +1,8 @@
+Hello : main.o
+	Gcc main.o -o main
+
+Hello.o : main.cpp
+	Gcc -c main.c -o main.o
+
+Clean : 
+	Rm -rf *.o main
